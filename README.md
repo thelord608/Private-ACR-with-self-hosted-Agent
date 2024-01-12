@@ -73,6 +73,8 @@
   - Now we can see the build and pushed taks completed with no errors.
         <img width="640" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/f8e60f28-56e0-4eb3-abd8-b65412fb707d">
   - we will login the agent vm to see the acr repository
+       <br/>az acr repository list -n eticket.azurecr.io<br/>
+      <br/>az acr repository show-tags -n eticket.azurecr.io --repository etickets-main<br/>
     <img width="760" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/865d9da8-7509-4466-b202-128d51b7071d">
 
 
