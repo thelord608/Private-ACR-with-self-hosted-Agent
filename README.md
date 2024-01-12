@@ -13,4 +13,18 @@
 -  Connect to VM using this command - ssh -i ~/.ssh/agent-vm_key.pem shubham@20.204.58.216
 -  Create the PAT token for authentication.
 -  Once you login to vm then run the following commands to registed the vm as a agent.
--  
+-  Create the Agent - mkdir myagent && cd myagent
+-  Download the agent - wget https://vstsagentpackage.azureedge.net/agent/3.232.1/vsts-agent-linux-x64-3.232.1.tar.gz
+-  extract the file - tar vsts-agent-linux-x64-3.232.1.tar.gz
+-  List the files in the directory after extracting - ls -al
+-  Run the command: ./config.sh
+-  Accept the Team Explorer Everywhere license agreement now? Type Y and enter
+-  Enter server URL > https://dev.azure.com/yourorganization
+-  Enter authentication type (press enter for PAT) > PAT
+- Enter personal access token
+- Enter Agent pool , give some name
+- Enter Agent name --> myBuildAgent
+- Enter work folder > enter
+- Configure the Agent to run as a Service -sudo ./svc.sh install &
+- Execute now to run as a service- ./runsvc.sh &
+- Check the status of build Agent
