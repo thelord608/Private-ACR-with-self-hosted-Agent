@@ -46,3 +46,14 @@
 
   **Install Azure CLI** -
            <br/> curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash<br/>
+
+**-  Create the Private azure container registry**
+  - Private azure container registry can be created with only premium plan.
+    <img width="473" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/1fcb7e01-4d04-4bc6-b8a4-65e062cffcec">
+- In network section you have to select private access and you have to create the private endpoint connection.
+  <img width="1013" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/c72637d5-5e7b-4ed8-ad5d-420c230e5164">
+- Once you create the Private acr you can not access the repository from local machine because its not part of your vnet. you can access the ACR only from the Vnet which is peered with acr-vnet.
+  <img width="761" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/7a69bfb5-67e0-4393-acf4-d470fb76bfe1">
+
+
+
