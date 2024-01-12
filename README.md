@@ -54,6 +54,10 @@
   <img width="1013" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/c72637d5-5e7b-4ed8-ad5d-420c230e5164">
 - Once you create the Private acr you can not access the repository from local machine because its not part of your vnet. you can access the ACR only from the Vnet which is peered with acr-vnet.
   <img width="761" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/7a69bfb5-67e0-4393-acf4-d470fb76bfe1">
+  - Next we want to push the image on acr from azure devops CI pipleine so we need to assign the IAM role acr push to managed identity which we have used in service connection.
+    <img width="679" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/314caf4e-a9b8-4a54-9767-a26772243ff4">
+    
+
 
 
 
