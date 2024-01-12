@@ -56,6 +56,15 @@
   <img width="761" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/7a69bfb5-67e0-4393-acf4-d470fb76bfe1">
   - Next we want to push the image on acr from azure devops CI pipleine so we need to assign the IAM role acr push to managed identity which we have used in service connection.
     <img width="679" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/314caf4e-a9b8-4a54-9767-a26772243ff4">
+- Now we will add the agent pool name in our CI pipeline.
+  <img width="386" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/10741da2-baaa-480a-bae3-6cc165131d4a">
+  - Now we will run the pipeline and we can see in below screenshot its failed due to access issue and that is the ip address of our azure VM,
+    <img width="703" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/a429e187-1ff9-4857-86d6-673c8d87eb90">
+
+    <img width="695" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/30c30688-e3d4-4df0-9def-da14b665c4f4">
+
+
+
     
 
 
