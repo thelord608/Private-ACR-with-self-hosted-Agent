@@ -31,11 +31,11 @@
   <img width="731" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/ca8790d1-4e47-4897-ba40-fa407b4e2b72">
   - Agent is configured successfully now we need to install the tools so we can build our application.
   - **Install Docker** - **This is required because we are going to build the docker image on this agent.**
-        sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-        curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-        sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-        sudo apt update
-        sudo apt install -y docker-ce
-        #sudo usermod -aG docker shubham
-    	  sudo chmod 666 /var/run/docker.sock
+        1.sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+        2. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+        3. sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+        4. sudo apt update
+        5. sudo apt install -y docker-ce
+        6. sudo usermod -aG docker shubham
+    	  7. sudo chmod 666 /var/run/docker.sock
 
