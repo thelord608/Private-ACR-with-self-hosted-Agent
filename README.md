@@ -67,7 +67,16 @@
     - This issue we are facing because there is no private link between acr-vnet and agent-vm , the vm should reach to acr from the private endpoint but on agent-vnet does not have access to acr private endpoint. so we can create the new virtual network link.
       
       <img width="974" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/fec0a70b-41e2-47e0-8f9a-722c43b263fd">
+      
       <img width="773" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/d4298fa7-9fb0-4087-80a9-6081986e64ba">
+
+  - Now we can see the build and pushed taks completed with no errors.
+        <img width="640" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/f8e60f28-56e0-4eb3-abd8-b65412fb707d">
+  - we will login the agent vm to see the acr repository
+    <img width="760" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/865d9da8-7509-4466-b202-128d51b7071d">
+
+
+
 
      
 
