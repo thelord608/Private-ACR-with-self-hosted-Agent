@@ -58,10 +58,22 @@
     <img width="679" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/314caf4e-a9b8-4a54-9767-a26772243ff4">
 - Now we will add the agent pool name in our CI pipeline.
   <img width="386" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/10741da2-baaa-480a-bae3-6cc165131d4a">
-  - Now we will run the pipeline and we can see in below screenshot its failed due to access issue and that is the ip address of our azure VM,
+  - Now we will run the pipeline and we can see in below screenshot its failed due to access issue and that is the ip address of our azure VM.
+    
     <img width="703" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/a429e187-1ff9-4857-86d6-673c8d87eb90">
 
     <img width="695" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/30c30688-e3d4-4df0-9def-da14b665c4f4">
+
+    - This issue we are facing because there is no private link between acr-vnet and agent-vm , the vm should reach to acr from the private endpoint but on agent-vnet does not have access to acr private endpoint. so we can create the new virtual network link.
+      
+      <img width="974" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/fec0a70b-41e2-47e0-8f9a-722c43b263fd">
+      <img width="773" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/d4298fa7-9fb0-4087-80a9-6081986e64ba">
+
+     
+
+
+      
+
 
 
 
