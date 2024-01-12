@@ -1,5 +1,9 @@
 # Private-ACR-with-self-hosted-Agent
-Steps-
+**Architecture**-
+<img width="517" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/e17f44f4-9a5f-40a1-8172-ae7131d4b162">
+
+
+**Steps**-
 -  First create the Service connection from azure devops to Azure cloud using managed identity or service principle.
 -  Create the Agent pool from the project setting.
 -  Now create the 2 virtual network (one for self-hosted agent and another for private ACR).
