@@ -41,4 +41,4 @@
             <br/>sudo chmod 666 /var/run/docker.sock<br/>
 
   **Install Azure CLI** -
-        curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+           <br/> curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash<br/>
