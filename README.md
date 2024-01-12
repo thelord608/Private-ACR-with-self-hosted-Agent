@@ -15,16 +15,18 @@
 -  Once you login to vm then run the following commands to registed the vm as a agent.
 -  Create the Agent - mkdir myagent && cd myagent
 -  Download the agent - wget https://vstsagentpackage.azureedge.net/agent/3.232.1/vsts-agent-linux-x64-3.232.1.tar.gz
--  extract the file - tar vsts-agent-linux-x64-3.232.1.tar.gz
+-  extract the file - tar zxvf vsts-agent-linux-x64-3.232.1.tar.gz
 -  List the files in the directory after extracting - ls -al
 -  Run the command: ./config.sh
 -  Accept the Team Explorer Everywhere license agreement now? Type Y and enter
 -  Enter server URL > https://dev.azure.com/yourorganization
 -  Enter authentication type (press enter for PAT) > PAT
 - Enter personal access token
-- Enter Agent pool , give some name
+- Enter Agent pool - which you have created 
 - Enter Agent name --> myBuildAgent
 - Enter work folder > enter
 - Configure the Agent to run as a Service -sudo ./svc.sh install &
 - Execute now to run as a service- ./runsvc.sh &
 - Check the status of build Agent
+  <img width="731" alt="image" src="https://github.com/shubhamagrawal17/Private-ACR-with-self-hosted-Agent/assets/24695227/ca8790d1-4e47-4897-ba40-fa407b4e2b72">
+
